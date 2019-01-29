@@ -18,5 +18,12 @@ public class Main {
         System.out.println(myName.length());
 
         System.out.println(myName.concat(myNameLowerCase));
+
+        System.out.println(myName.charAt(3));
+
+   // String myFullName = new String("Mikayla Clemons");
+
+   // String
+
     }
 }
