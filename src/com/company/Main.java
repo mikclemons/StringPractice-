@@ -14,5 +14,7 @@ public class Main {
 
     boolean areEqual = myName.equalsIgnoreCase(myNameLowerCase);
         System.out.println(areEqual);
+
+        System.out.println(myName.length());
     }
 }
