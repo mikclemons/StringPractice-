@@ -21,9 +21,11 @@ public class Main {
 
         System.out.println(myName.charAt(3));
 
-   // String myFullName = new String("Mikayla Clemons");
+   String myFirstName = new String("Mikayla");
 
-   // String
+   String myClassmatesFirstName = new String("Nada");
 
+   int result = myFirstName.compareTo(myClassmatesFirstName);
+        System.out.println(result);
     }
 }
