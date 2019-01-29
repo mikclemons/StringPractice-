@@ -16,5 +16,7 @@ public class Main {
         System.out.println(areEqual);
 
         System.out.println(myName.length());
+
+        System.out.println(myName.concat(myNameLowerCase));
     }
 }
