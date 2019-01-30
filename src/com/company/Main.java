@@ -25,7 +25,11 @@ public class Main {
 
    String myClassmatesFirstName = new String("Nada");
 
-   int result = myFirstName.compareTo(myClassmatesFirstName);
+   int result = myFirstName.compareToIgnoreCase(myClassmatesFirstName);
         System.out.println(result);
+
+    String myNewName = myName.replace('a' , 'Z');
+
+        System.out.println(myNewName);
     }
 }
