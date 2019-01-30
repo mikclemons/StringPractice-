@@ -31,5 +31,9 @@ public class Main {
     String myNewName = myName.replace('a' , 'Z');
 
         System.out.println(myNewName);
+
+    String lastTwoCharOfMyName = myName.substring(myName.length()-2);
+
+        System.out.println(lastTwoCharOfMyName);
     }
 }
